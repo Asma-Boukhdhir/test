@@ -1,0 +1,18 @@
+{
+    "question": "Est-ce un animal ?",
+    "yes": {
+      "question": "Est-ce un mammifère ?",
+      "yes": {
+        "question": "Est-ce un chien ?",
+        "yes": "C'est un chien.",
+        "no": "C'est un autre mammifère."
+      },
+      "no": {
+        "question": "Est-ce un oiseau ?",
+        "yes": "C'est un oiseau.",
+        "no": "C'est un autre mammifère."
+      }
+    },
+    "no": "Ce n'est pas un animal."
+  }
+  
